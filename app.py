@@ -19,4 +19,5 @@ async def hello():
 
 @app.get("/apiv2/info")
 async def hellov2():
+    
     return {"Message":"Hello, world from V2"}
